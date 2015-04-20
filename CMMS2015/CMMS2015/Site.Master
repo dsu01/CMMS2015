@@ -39,35 +39,51 @@
 
         <header>
             <div class="content-wrapper">
-                <div class="float-left" width="200">
                     <table height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
-                        <tr>
+                        <%--<tr>
                             <td>
-                                <%--<img height="5" src="Images/pixel_trans.gif" width="200">--%>
+                                <img height="5" src="Images/pixel_trans.gif" width="200">
                             </td>
-                        </tr>
+                        </tr>--%>
                         <tr>
-                            <td>
-                                <asp:Image Width="200" ImageUrl="Images/NIH_logo.png" runat="server" />
+                            <td align="left">
+                                <table height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                    <tr>
+                                        <td>
+                                            <div class="float-left">
+                                                <asp:Image Width="200" ImageUrl="Images/NIH_logo.png" runat="server" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="float-left">
+                                                <asp:Image Width="200" ImageUrl="Images/Banner.jpg" runat="server"></asp:Image>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:Image Width="200" ImageUrl="Images/Banner.jpg" runat="server"></asp:Image></td>
-                            <%--<td vAlign="bottom" align="right" width="10"><IMG height="50" src="pics/logotype_alt.gif" width="10" align="bottom"></td>--%>
+                            <td align="center">
+                                <h2>Work Order</h2>
+                            </td>
+                            <td align="right">
+                                <p>Question or Support</p>
+                                <p>Email <a>support@nih.gov</a></p>
+                                <p>Or Call 301-555-5555</p>
+                            </td>
                         </tr>
                     </table>
-                </div>
             </div>
         </header>
 
         <div id="body">
             <table width="100%" border="0" cellpadding="0" cellspacing="">
-                <tr>
+                <%--<tr>
                     <td class="baseTL"></td>
                     <td class="baseTop"></td>
                     <td class="baseTR"></td>
-                </tr>
+                </tr>--%>
                 <tr>
                     <td class="baseLSide"></td>
                     <td class="baseContent">
