@@ -5,85 +5,132 @@
 <head runat="server">
     <meta charset="utf-8" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
-    <asp:PlaceHolder runat="server">     
-          <%: Scripts.Render("~/bundles/modernizr") %>
-    </asp:PlaceHolder>  
-    <webopt:BundleReference runat="server" Path="~/Content/css" /> 
+    <link href="App_Themes/MainTheme/main.css" rel="stylesheet" type="text/css" />
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 </head>
 <body>
     <form runat="server">
-    <asp:ScriptManager runat="server">
-        <Scripts>
-            <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
-            <%--Framework Scripts--%>
-            
-            <asp:ScriptReference Name="MsAjaxBundle" />
-            <asp:ScriptReference Name="jquery" />
-            <asp:ScriptReference Name="jquery.ui.combined" />
-            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-            <asp:ScriptReference Name="WebFormsBundle" />
-            <%--Site Scripts--%>
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=272931&clcid=0x409 --%>
+                <%--Framework Scripts--%>
 
-        </Scripts>
-    </asp:ScriptManager>
-    <header>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p class="site-title">
-                    <a runat="server" href="~/">your logo here</a>
-                </p>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery.ui.combined" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left" width="200">
+                    <table height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tr>
+                            <td>
+                                <%--<img height="5" src="Images/pixel_trans.gif" width="200">--%>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Image Width="200" ImageUrl="Images/NIH_logo.png" runat="server" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:Image Width="200" ImageUrl="Images/Banner.jpg" runat="server"></asp:Image></td>
+                            <%--<td vAlign="bottom" align="right" width="10"><IMG height="50" src="pics/logotype_alt.gif" width="10" align="bottom"></td>--%>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="float-right">
-                <section id="login">
-                    <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
-                            <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register">Register</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login">Log in</a></li>
-                            </ul>
-                        </AnonymousTemplate>
-                        <LoggedInTemplate>
-                            <p>
-                                Hello, <a runat="server" class="username" href="~/Account/Manage" title="Manage your account">
-                                    <asp:LoginName runat="server" CssClass="username" /></a>!
-                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" />
-                            </p>
-                        </LoggedInTemplate>
-                    </asp:LoginView>
-                </section>
-                <nav>
-                    <ul id="menu">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+        </header>
+
+        <div id="body">
+            <table width="100%" border="0" cellpadding="0" cellspacing="">
+                <tr>
+                    <td class="baseTL"></td>
+                    <td class="baseTop"></td>
+                    <td class="baseTR"></td>
+                </tr>
+                <tr>
+                    <td class="baseLSide"></td>
+                    <td class="baseContent">
+                        <div id="wrapper">
+                            <%--<div id="banner">
+                                <table width="100%">
+                                    <tr>
+                                        <!-- Modified to change banner from Search and Incident to Safety and Integrity -->
+                                        <td align="center" style="width: 426">
+                                            <img src="Images/img_Header_h.gif" border="0" />
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>--%>
+
+                            <div id="outer">
+                                <div id="center">
+
+                                    <!-- main content -->
+                                    <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+                                    <section class="content-wrapper main-content clear-fix">
+                                        <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+                                    </section>
+
+                                    <%--<table width="500" border="0" cellpadding="0" cellspacing="">
+                                        <tr>
+                                            <td class="baseTL"></td>
+                                            <td class="baseTop"></td>
+                                            <td class="baseTR"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="baseLSide"></td>
+                                            <td class="baseContent">test</td>
+                                            <td class="baseRSide"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="baseBL"></td>
+                                            <td class="baseBTTM"></td>
+                                            <td class="baseBR"></td>
+                                        </tr>
+                                    </table>--%>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="baseRSide"></td>
+                </tr>
+                <tr>
+                    <td class="baseBL"></td>
+                    <td class="baseBTTM"></td>
+                    <td class="baseBR"></td>
+                </tr>
+            </table>
         </div>
-    </header>
-    <div id="body">
-        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
-        <section class="content-wrapper main-content clear-fix">
-            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
-        </section>
-    </div>
-    <footer>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="footer">Copyright ©2013, OD/ORF. All Rights Reserved.</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
     </form>
 </body>
 </html>
