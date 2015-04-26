@@ -3,8 +3,8 @@
 	margin:0px;
 	padding:0px;
 	border:0;
-	background:url(../../Image/bg_login.jpg) #f8b149 repeat-x fixed;
-    /*url(../../Image/Yellow_bg.jpg)*/
+	background:url(../../Images/bg_login.jpg) #f8b149 repeat-x fixed;
+    /*url(../../Images/Yellow_bg.jpg)*/
 }
 
 body {	
@@ -56,7 +56,7 @@ Borders (not if any sidebar intrudes into header or footer, or Inner Borders are
   /***height:80px;  = Top Margin + One Outer Border + header to body divider depth +
 subheader1 height + any other subheader heights ***/
   height: 50px; 
- /* background: #aa0011 url(../../Image/img_Header.gif) top left no-repeat;  */
+ /* background: #aa0011 url(../../Images/img_Header.gif) top left no-repeat;  */
  background-color:#e8941a;
 border-bottom:solid 3px #999999
 }
@@ -165,55 +165,55 @@ font-size: 15px;
  	position: absolute; 
  	z-index: 1
  	}
- /*Table, grid*/
  td.loginbaseTL {
-	background: url(../../Image/box_logintopleft.gif);/*top left corner*/
+	background: url(../../Images/box_logintopleft.gif);/*top left corner*/
 	width: 23px;
 	height: 23px;
 }
 td.loginbaseTop {
-	background: url(../../Image/box_logintop.gif);/*top border line*/
+	background: url(.. /*Table, grid*/
+/../Images/box_logintop.gif);/*top border line*/
 }
 td.loginbaseTR {
-	background: url(../../Image/box_logintopright.gif);/*top right corner*/
+	background: url(../../Images/box_logintopright.gif);/*top right corner*/
 	width: 23px;
 }
 td.baseTL {
-	background: url(../../Image/box_topleft.gif);/*top left corner*/
+	background: url(../../Images/box_topleft.gif);/*top left corner*/
 	width: 23px;
 	height: 14px;
 }
 
 td.baseTop {
-	background: url(../../Image/box_bkgdtop.gif);/*top border line*/
+	background: url(../../Images/box_bkgdtop.gif);/*top border line*/
 
 }
 td.baseTR {
-	background: url(../../Image/box_topright.gif);/*top right corner*/
+	background: url(../../Images/box_topright.gif);/*top right corner*/
 	width: 23px;
 }
 td.baseRSide {
-	background: url(../../Image/box_bkgdright.gif);/*right border line*/
+	background: url(../../Images/box_bkgdright.gif);/*right border line*/
 }
 td.baseBR {
-	background: url(../../Image/box_bttmright.gif);/*bottom right corner*/
+	background: url(../../Images/box_bttmright.gif);/*bottom right corner*/
 	width: 23px;
 }
 
 
 td.baseBTTM {
-	background: url(../../Image/box_bkgdbttm.gif);/*bottom border line*/
+	background: url(../../Images/box_bkgdbttm.gif);/*bottom border line*/
 }
 td.baseBL {
-	background: url(../../Image/box_bttmleft.gif);/*bottom left corner*/
+	background: url(../../Images/box_bttmleft.gif);/*bottom left corner*/
 	height: 23px;
 	width: 23px;
 }
 td.baseLSide {
-	background: url(../../Image/box_bkgdleft.gif);/*left border line*/
+	background: url(../../Images/box_bkgdleft.gif);/*left border line*/
 }
     table.lightGreyTop {
-	background-../../Image: url(../../Image/login_bkgd2.jpg);
+	background: url(../../Images/login_bkgd2.jpg);
 }
 .QueryDataTable 
 {	width:90%;	
@@ -242,7 +242,7 @@ td.baseLSide {
 	 Font-Weight:bold;
 	 color:#000;
 	 Font-Size:.9em;
-	/*  Color:#4b4d4e; background-../../Image: url(../../Images/bg_gridviewheader.jpg);*/
+	/*  Color:#4b4d4e; background-../../Images: url(../../Imagess/bg_gridviewheader.jpg);*/
 
 	 text-align:center;
 	 background-color:#cccccc;
@@ -279,14 +279,14 @@ td.baseLSide {
 }
   table.sub 
   {
-	background-../../Image: url(../../Image/login_bkgd2.jpg);
+	background-../../Images: url(../../Images/login_bkgd2.jpg);
 }
 
  table.rightNav 
   {
   	width:186px;
-	/*background-../../Image: url(../../Image/login_bkgd2.jpg);*/
-	background: url(../../Image/bkgd_form.png);
+	/*background-../../Images: url(../../Images/login_bkgd2.jpg);*/
+	background: url(../../Images/bkgd_form.png);
 	border:solid 1px #999;
 }
 table.rightNav td
@@ -297,7 +297,7 @@ table.rightNav td
 	font-family: Verdana, sans-serif;
 	font-size: 10px;
 	width:170px;
-	/*background: url(../../Image/arrow4.gif) no-repeat 0 3px;*/
+	/*background: url(../../Images/arrow4.gif) no-repeat 0 3px;*/
 	text-align:left;
 	}
 	table.rightNav td.redheading
@@ -332,7 +332,7 @@ fieldset
 	font-family: Verdana, sans-serif;
 	font-size: 95%;
 	
-	background: url(../../Image/arrow4.gif) no-repeat 0 3px;
+	background: url(../../Images/arrow4.gif) no-repeat 0 3px;
 	text-align:left;
 	
 	
@@ -376,12 +376,12 @@ fieldset
 	font-size: 12px;
 	text-align:left;
 	padding:3px;
-	background-../../Image: url(../../Image/login_bkgd2.jpg);
+	background-../../Images: url(../../Images/login_bkgd2.jpg);
 }	
 .leftLabel {		
 	
 		background-color:transparent;
-		background-../../Image:none;
+		background-../../Images:none;
 		font-size:.7em;
 		color: #000000;
 		font-weight:bold;
@@ -393,7 +393,7 @@ fieldset
 .normalTextBox {
 	
 		background-color:transparent;
-		background-../../Image:none;
+		background-../../Images:none;
 		font-size:.7em;
 		font-weight:normal;
 		padding: 2px;
@@ -510,7 +510,7 @@ div.pagination {
 	
 }
 .submitGreen {
-	background: url(../../Image/bkgd_greenButtonform.png);
+	background: url(../../Images/bkgd_greenButtonform.png);
 	font-family: verdana;
 	font-weight: normal;
 	color: #000000;
@@ -521,7 +521,7 @@ div.pagination {
 	padding: 2px;
 }
 .submitBlue {
-	background: url(../../Image/bkgd_blueButtonform.png);
+	background: url(../../Images/bkgd_blueButtonform.png);
 	font-family: verdana;
 	font-weight: normal;
 	color: #000000;
@@ -532,7 +532,7 @@ div.pagination {
 	padding: 2px;
 }
 .submitYellow {
-	background: url(../../Image/bkgd_yellowButtonform.png);
+	background: url(../../Images/bkgd_yellowButtonform.png);
 	font-family: verdana;
 	font-weight: normal;
 	color: #000000;
@@ -543,7 +543,7 @@ div.pagination {
 	padding: 2px;
 }
 .submitRed {
-	background: url(../../Image/bkgd_redButtonform.png);
+	background: url(../../Images/bkgd_redButtonform.png);
 	font-family: verdana;
 	font-weight: normal;
 	color: #000000;
@@ -637,16 +637,16 @@ td {
 /*End Text Area*/
 
 /*Link Boxes*/
-dl {/*the box on left navigation and bottom ../../Image*/
+dl {/*the box on left navigation and bottom ../../Images*/
 	width: 200px;
 	margin: 0 0 0 0;
 	padding: 0;
-	/*background: #ccc url(../../Image/box_bttm2.png) no-repeat bottom left;*/
+	/*background: #ccc url(../../Images/box_bttm2.png) no-repeat bottom left;*/
 	font-size: .7em;
 	
 	/*add the light color and corner on bottom log out link*/
 }
-dt {/*the small box title and top ../../Image*/
+dt {/*the small box title and top ../../Images*/
 	margin: 0 0 10px 0;
 	padding: 10px 10px 10px 10px;
 	font-size: 100%;
@@ -654,7 +654,7 @@ dt {/*the small box title and top ../../Image*/
 	text-align:center;
 	color: #BA3516;
 	border-bottom: 1px solid #fff;
-	background: #999 url(../../Image/box_top2.png) no-repeat top left;
+	background: #999 url(../../Images/box_top2.png) no-repeat top left;
 }
 dd {/*the small box element*/
 	margin: 0 0 0 10px;
@@ -662,7 +662,7 @@ dd {/*the small box element*/
 	color: #000;
 	font-family: Verdana, sans-serif;
 	font-size: 90%;
-	background: url(../../Image/arrow4.gif) no-repeat 0 3px;
+	background: url(../../Images/arrow4.gif) no-repeat 0 3px;
 	text-align:left;
 }
 #grey dt {
@@ -770,7 +770,7 @@ dd {/*the small box element*/
 }
 .TitlebarRight
 {	
-	background:url(../../Image/cross_icon_normal.png);
+	background:url(../../Images/cross_icon_normal.png);
 	background-position:right;
 	background-repeat:no-repeat;
 	height:15px;
@@ -806,7 +806,7 @@ dd {/*the small box element*/
 	padding: 3px;
 }
 .modalBox caption {
-	background-../../Image: url(../../Images/window_titlebg.gif);
+	background-../../Images: url(../../Imagess/window_titlebg.gif);
 	background-repeat:repeat-x;
 }
 .divCol{
@@ -824,7 +824,7 @@ dd {/*the small box element*/
 }
 .caption, table caption {
 	background-color: #aaa;
-	background-../../Image: url('../../Image/tilebg_tablecaption.gif');
+	background-../../Images: url('../../Images/tilebg_tablecaption.gif');
 	color: #000;
 	font-size: 12pt;
 	font-weight: bold;

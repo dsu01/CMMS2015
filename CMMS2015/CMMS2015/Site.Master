@@ -47,7 +47,7 @@
                         </tr>--%>
                         <tr>
                             <td align="left">
-                                <table height="100%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                                <table height="100%" cellspacing="0" cellpadding="0" width="100%">
                                     <tr>
                                         <td>
                                             <div class="float-left">
@@ -78,12 +78,12 @@
         </header>
 
         <div id="body">
-            <table width="100%" border="0" cellpadding="0" cellspacing="">
-                <%--<tr>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
                     <td class="baseTL"></td>
                     <td class="baseTop"></td>
                     <td class="baseTR"></td>
-                </tr>--%>
+                </tr>
                 <tr>
                     <td class="baseLSide"></td>
                     <td class="baseContent">
@@ -143,7 +143,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="footer">Copyright ©2013, OD/ORF. All Rights Reserved.</p>
+                    <p class="footer">Copyright ©2015, OD/ORF. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>

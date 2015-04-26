@@ -3,7 +3,7 @@
 <asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
     <section class="featured">
         <div class="content-wrapper">
-                <h1>Featured Content</h1>
+                <h1>CMMS Central Dashboard</h1>
         </div>
     </section>
 </asp:Content>
