@@ -844,3 +844,42 @@ dd {/*the small box element*/
 	max-height: 2px;
 }
 
+#divDashboard {
+    background-image: url(Images/Circle.png);
+    background-size: 800 800;
+}
+
+#admin {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 200px;
+    top: 110px;
+}
+
+#map {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 200px;
+    top: 440px;
+}
+
+#track {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 35px;
+    top: 265px;
+}
+
+#dispatch {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 350px;
+    top: 265px;
+}
+
+
+
