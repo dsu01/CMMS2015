@@ -51,17 +51,17 @@
                                     <tr>
                                         <td>
                                             <div class="float-left">
-                                                <asp:Image Width="200" ImageUrl="Images/NIH_logo.png" runat="server" />
+                                                <asp:Image Width="300" ImageUrl="Images/NIH_logo_new.png" runat="server" />
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <%--<tr>
                                         <td>
                                             <div class="float-left">
                                                 <asp:Image Width="200" ImageUrl="Images/Banner.jpg" runat="server"></asp:Image>
                                             </div>
                                         </td>
-                                    </tr>
+                                    </tr>--%>
                                 </table>
                             </td>
                             <td align="center">

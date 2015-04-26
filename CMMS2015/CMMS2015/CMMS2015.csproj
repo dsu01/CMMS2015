@@ -190,7 +190,12 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Images\accent.png" />
+    <Content Include="Images\admin.png" />
+    <Content Include="Images\admin_round.png" />
+    <Content Include="Images\Asset.png" />
+    <Content Include="Images\Asset_round.png" />
     <Content Include="Images\Banner.jpg" />
     <Content Include="Images\bg.jpg" />
     <Content Include="Images\BG_blue.png" />
@@ -216,9 +221,14 @@
     <Content Include="Images\btn_find.jpg" />
     <Content Include="Images\btn_print.gif" />
     <Content Include="Images\bullet.png" />
+    <Content Include="Images\Circle.png" />
     <Content Include="Images\close.gif" />
+    <Content Include="Images\cmms.jpg" />
+    <Content Include="Images\cmms_round.png" />
     <Content Include="Images\cross_icon_normal.png" />
     <Content Include="Images\delete.gif" />
+    <Content Include="Images\dispatch.png" />
+    <Content Include="Images\dispatch_round.png" />
     <Content Include="Images\edit.gif" />
     <Content Include="Images\greenarrow_sm.gif" />
     <Content Include="Images\greenarrow_sm1.gif" />
@@ -235,7 +245,10 @@
     <Content Include="Images\indicator.gif" />
     <Content Include="Images\indicator.jpg" />
     <Content Include="Images\login_bkgd2.jpg" />
+    <Content Include="Images\map.png" />
+    <Content Include="Images\map_round.png" />
     <Content Include="Images\NIH_logo.png" />
+    <Content Include="Images\NIH_logo_new.png" />
     <Content Include="Images\Note_small.gif" />
     <Content Include="Images\notice.jpg" />
     <Content Include="Images\notice_icon.jpg" />
@@ -254,11 +267,15 @@
     <Content Include="Global.asax" />
     <Content Include="Images\pixel_gray_797979.gif" />
     <Content Include="Images\pixel_trans.gif" />
+    <Content Include="Images\Report.png" />
+    <Content Include="Images\Report_round.png" />
     <Content Include="Images\SafetyFirstLogo.jpg" />
     <Content Include="Images\spacer.gif" />
     <Content Include="Images\spinner.jpg" />
     <Content Include="Images\tilebg_tablecaption.gif" />
     <Content Include="Images\titlebar_bg.jpg" />
+    <Content Include="Images\track.png" />
+    <Content Include="Images\track_round.png" />
     <Content Include="Images\Yellow_bg.jpg" />
     <Content Include="index.htm" />
     <Content Include="packages.config" />
@@ -359,6 +376,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
