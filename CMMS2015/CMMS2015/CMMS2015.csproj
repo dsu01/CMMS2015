@@ -236,6 +236,7 @@
     <Content Include="Images\indicator.jpg" />
     <Content Include="Images\login_bkgd2.jpg" />
     <Content Include="Images\NIH_logo.png" />
+    <Content Include="Images\NIH_logo_new.png" />
     <Content Include="Images\Note_small.gif" />
     <Content Include="Images\notice.jpg" />
     <Content Include="Images\notice_icon.jpg" />
