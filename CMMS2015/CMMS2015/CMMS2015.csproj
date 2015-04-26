@@ -291,6 +291,8 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Survey\SurveyDetail.aspx" />
+    <Content Include="Survey\SurveyEntryForm.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -382,6 +384,20 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Survey\SurveyDetail.aspx.cs">
+      <DependentUpon>SurveyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Survey\SurveyDetail.aspx.designer.cs">
+      <DependentUpon>SurveyDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Survey\SurveyEntryForm.aspx.cs">
+      <DependentUpon>SurveyEntryForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Survey\SurveyEntryForm.aspx.designer.cs">
+      <DependentUpon>SurveyEntryForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
